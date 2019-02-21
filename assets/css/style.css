@@ -1,0 +1,50 @@
+.black, .yellow, .green, .purple {
+width: 200px;
+height: 250px;
+}
+
+body {
+    background-color: rgba(59, 59, 59, 0.322);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-align: left;
+    font-weight: bold;
+    color:rgb(36, 33, 30);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 35px;
+}
+
+.instructions {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: rgb(83, 83, 83);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.target, .Wins, .Losses, .score {
+    font-family: 'Changa', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: rgb(26, 24, 24);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Wins, .Losses {
+    font-size: 35px;
+}
+
+.score {
+    margin-top: 30px;
+}
+
+.gameData {
+    color:rgb(194, 7, 32);
+    font-family: 'Montserrat', bold, sans-serif;
+}

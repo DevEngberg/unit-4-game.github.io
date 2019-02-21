@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Collector</title>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+<body>
+    <div class="container">
+     <div class="row">
+    <div class="col">
+         <h1>Crystal Collector</h1>
+        </div>
+    </div>
+
+        <div class="row">   
+        <div class="col">
+            <div class="instructions">
+                <p>You are assigned a random number at the start of the game. The four crystals each represent
+                    a different(secret) number. Click on one to begin adding to your score. If you can match your score to the target number, you
+                    win! If you go over it, you lose! Good Luck!!
+            </p>
+         </div>
+        </div>
+        </div>
+        <div class="row topdata">
+            <div class="col-7">
+                 <p class="target">Target number: <span id="GivenNumber" class="gameData">    </span></p>
+            </div>
+            <div class="col-3">
+            <p class="Wins">Wins: <span id="Win" class="gameData"></span></p>
+            <p class="Losses">Losses: <span id="Lose" class="gameData"></span></p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-3" id="image1">
+                <img class="green" src="assets/images/crystalone.png">
+            </div>
+            <div class="col-3" id="image2">
+                <img class="black" src="assets/images/cryastaltwo.png">
+            </div>
+            <div class="col-3" id="image3">
+                <img class="yellow" src="assets/images/crystalthree.png">
+            </div>
+            <div class="col-3" id="image4">
+                <img class="purple" src="assets/images/crystalfour.png">
+            </div>
+        </div>
+        <div class="row total">
+            <div class="col-7">
+             <p class="score">Your score: <span id="result" class="gameData"></span></p>
+        </div>
+        </div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script> 
+</body>
+</html>
